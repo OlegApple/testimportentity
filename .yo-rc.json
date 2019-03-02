@@ -1,0 +1,40 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.mycompany.myapp"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "testdl",
+        "packageName": "com.mycompany.myapp",
+        "packageFolder": "com/mycompany/myapp",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "OTFmNTMzMTM3OGE4NDQ4ZmIxZmMwNGRiNWZlOWRmNmEwNDc4N2Q1YzFlOWVjMDQzMzRlMjE3MGVhZDBhNWU3ODJkNDA5NWQ1YmMxNGFhMmI2ODI4NjhiNTFlNjk3MjdkNzk4N2JlZTI2MDgxMmYzYmYwMGU4MDc1NGY5NDBlN2E=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-feign-client",
+                "version": "1.0.6"
+            }
+        ],
+        "enableTranslation": false
+    }
+}
